@@ -12,7 +12,7 @@
  * for more details.
  */
 
-#include "owncloudtheme.h"
+#include "listocloudtheme.h"
 
 #include <QString>
 #include <QVariant>
@@ -28,30 +28,30 @@
 
 namespace OCC {
 
-ownCloudTheme::ownCloudTheme()
+listoCloudTheme::listoCloudTheme()
     : Theme()
 {
 }
 
 #ifndef TOKEN_AUTH_ONLY
-QVariant ownCloudTheme::customMedia(CustomMediaType)
+QVariant listoCloudTheme::customMedia(CustomMediaType)
 {
     return QVariant();
 }
 #endif
 
 #ifndef TOKEN_AUTH_ONLY
-QColor ownCloudTheme::wizardHeaderBackgroundColor() const
+QColor listoCloudTheme::wizardHeaderBackgroundColor() const
 {
-    return QColor("#1d2d42");
+    return QColor("#BE202D");
 }
 
-QColor ownCloudTheme::wizardHeaderTitleColor() const
+QColor listoCloudTheme::wizardHeaderTitleColor() const
 {
     return QColor("#ffffff");
 }
 
-QPixmap ownCloudTheme::wizardHeaderLogo() const
+QPixmap listoCloudTheme::wizardHeaderLogo() const
 {
     return QPixmap(hidpiFileName(":/client/theme/colored/wizard_logo.png"));
 }

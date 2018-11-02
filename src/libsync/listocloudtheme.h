@@ -12,8 +12,8 @@
  * for more details.
  */
 
-#ifndef OWNCLOUD_THEME_H
-#define OWNCLOUD_THEME_H
+#ifndef LISTOCLOUD_THEME_H
+#define LISTOCLOUD_THEME_H
 
 #include "theme.h"
 
@@ -23,11 +23,11 @@ namespace OCC {
  * @brief The ownCloudTheme class
  * @ingroup libsync
  */
-class ownCloudTheme : public Theme
+class listoCloudTheme : public Theme
 {
     Q_OBJECT
 public:
-    ownCloudTheme();
+    listoCloudTheme();
 #ifndef TOKEN_AUTH_ONLY
     QVariant customMedia(CustomMediaType type) Q_DECL_OVERRIDE;
 
@@ -42,4 +42,4 @@ public:
 private:
 };
 }
-#endif // OWNCLOUD_MIRALL_THEME_H
+#endif // LISTOCLOUD_MIRALL_THEME_H

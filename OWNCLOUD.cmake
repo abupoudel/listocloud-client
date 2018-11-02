@@ -1,6 +1,6 @@
 set( APPLICATION_NAME       "ListoCloud" )
 set( APPLICATION_SHORTNAME  "ListoCloud" )
-set( APPLICATION_EXECUTABLE "Listocloud" )
+set( APPLICATION_EXECUTABLE "listocloud" )
 set( APPLICATION_DOMAIN     "cloud.listo-ltd.com" )
 set( APPLICATION_VENDOR     "ListoCloud" )
 set( APPLICATION_UPDATE_URL "https://cloud.listo-ltd.com/client/" CACHE string "URL for updater" )
@@ -9,7 +9,7 @@ set( APPLICATION_VIRTUALFILE_SUFFIX "listocloud" CACHE STRING "Virtual file suff
 
 set( LINUX_PACKAGE_SHORTNAME "listocloud" )
 
-set( THEME_CLASS            "ownCloudTheme" )
+set( THEME_CLASS            "listoCloudTheme" )
 set( APPLICATION_REV_DOMAIN "com.listocloud.desktopclient" )
 set( WIN_SETUP_BITMAP_PATH  "${CMAKE_SOURCE_DIR}/admin/win/nsi" )
 
